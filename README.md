@@ -60,3 +60,22 @@ La carte permet d'importer directement de la batterie et des transformateurs les
 Puis elle permet de redistribuer cette énergie via des connecteurs XT60 et des borniers avec le Vbatt sur la partie haute, le 12V au centre et le 8,4V sur le bas et le haut du PCB.
 Il y a également de entrées PWM pour les Servos Moteurs.
 
+Software (tuto) :
+
+<img width="360" height="356" alt="image" src="https://github.com/user-attachments/assets/a1348207-d66c-4562-838d-951411b2baff" />
+
+On lance d’abord motorControl Workbench > Load project là vous mettez le fichier BON_MOTEUR.stwb6. Et ça vous ouvre directement la page(Image ci-dessous).
+
+<img width="932" height="488" alt="image" src="https://github.com/user-attachments/assets/219ba486-bc4a-4dba-9ce3-5689575fc156" />
+
+A gauche vous avez les paramètres que vous pouvez modifier etc. Pour lancer motor Pilot il faut Generate the Project :
+
+<img width="623" height="347" alt="image" src="https://github.com/user-attachments/assets/336e2e85-7cd6-46a9-8f2a-2a149682e1bc" />
+
+Cliquer sur generate ça le genére (si vous voyez des lignes orange pas d’inquiétude). Une fois la génération finit,il vous suffit d’appuyer sur Run STM32CubeMx.
+A ce stade normalement, unpage STM32CubeMx se lance appuyer sur Generate the code. Ensuite, appuyer sur ouvrez un fichier c de la barre à gaucheet appuyez sur RUN.
+Pendant ce temps vous pouvez lancer motorpilot via motor Control workbench (bouton à coter de
+Generate the project).
+Remarque, l’application qui se lancera va dépendre de ce que vous avez cocher dans Application
+Configuration. Ex :
+
