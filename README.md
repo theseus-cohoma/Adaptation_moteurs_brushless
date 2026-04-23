@@ -41,3 +41,22 @@ https://github.com/user-attachments/assets/fa4666f8-0b14-431a-903d-8bc15e6b51ce
 Détermination des caractéristiques techniques du moteur : 
 
 <img width="1331" height="695" alt="image" src="https://github.com/user-attachments/assets/3905344a-de6f-4a2d-bd7b-8bcc2d8c8e26" />
+
+Conception d'une carte de distribution de la puissance pour centraliser toute la partie puissance et éviter des brancehment en parallèle "sauvages":
+
+Schématique : 
+
+<img width="1616" height="1118" alt="image" src="https://github.com/user-attachments/assets/a8bc9cc6-16c7-4d86-925f-d2657bb849fd" />
+
+Routage :
+
+<img width="1071" height="850" alt="image" src="https://github.com/user-attachments/assets/1840974d-d962-4d24-8be1-dc4cecd5a58a" />
+
+PCB : 
+
+<img width="1420" height="1090" alt="image" src="https://github.com/user-attachments/assets/e972d538-4978-42e6-9a64-632374000bc2" />
+
+La carte permet d'importer directement de la batterie et des transformateurs les 3 tensions du robot à savoir Vbatt, +12V et +8,4V via les 3 connecteurs XT60 sur la gauche.
+Puis elle permet de redistribuer cette énergie via des connecteurs XT60 et des borniers avec le Vbatt sur la partie haute, le 12V au centre et le 8,4V sur le bas et le haut du PCB.
+Il y a également de entrées PWM pour les Servos Moteurs.
+
