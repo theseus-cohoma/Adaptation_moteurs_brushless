@@ -1,0 +1,22 @@
+{
+    "BEmfConstant": 4.989026069641113,
+    "compatibility": [
+        "FOC",
+        "sixStep"
+    ],
+    "description": "Test moteur ",
+    "friction": 16.59,
+    "hardwareFamily": "MOTOR",
+    "id": "Moteur présentation",
+    "inertia": 25.91,
+    "label": "Moteur présentation",
+    "ls": 0.08,
+    "magneticStructure": {
+        "type": "SM-PMSM"
+    },
+    "maxRatedSpeed": 2880,
+    "nominalCurrent": 20.675992965698242,
+    "nominalDCVoltage": 23.20068359375,
+    "polePairs": 6,
+    "rs": 0.10000000149011612
+}
