@@ -77,5 +77,35 @@ A ce stade normalement, unpage STM32CubeMx se lance appuyer sur Generate the cod
 Pendant ce temps vous pouvez lancer motorpilot via motor Control workbench (bouton à coter de
 Generate the project).
 Remarque, l’application qui se lancera va dépendre de ce que vous avez cocher dans Application
-Configuration. Ex :
+Configuration.
+
+<img width="978" height="556" alt="image" src="https://github.com/user-attachments/assets/37074cc7-484a-47be-a8ed-56b2d193a043" />
+
+Dans tous les cas, ceci est la page de base:
+
+<img width="810" height="481" alt="image" src="https://github.com/user-attachments/assets/4f08bcd8-9cfe-4306-828c-cac592c6c6c8" />
+
+<img width="343" height="245" alt="image" src="https://github.com/user-attachments/assets/688a07f7-07ba-4905-9969-83b40cafbf7f" />
+
+Vous pouvez aussi tout contrôler en haut à gauche avec GUI. Enfin, si vous choisissez Load UI il faut choisir le fichier MC_FOC_SDK pour avoir l’interface suivante et contrôler le moteur:
+
+<img width="812" height="431" alt="image" src="https://github.com/user-attachments/assets/b86807e8-6179-448a-94b0-5f987a30a45a" />
+
+Dans l’onglet Control vous pouvez choisir de le contrôler en Torque ou en Speed. Si jamais vous avez un problème de over current, il faut régler le problème ici :
+
+<img width="758" height="613" alt="image" src="https://github.com/user-attachments/assets/f0a8ee58-4251-45f9-bcdc-635473ea3c80" />
+
+Dans Digital Filter Duration, il faut augmenter le temps ici j’ai mis 282.35 ns.
+
+REMARQUE IMPORTANTE : IL FAUT à CHAQUE FOIS RE-GENERATE the project > Run
+STM32CubeMx > Generate the code > Run un fichier C POUR CHAQUE CHANGEMENT QUE
+VOUS FAITES DANS LE SOFTWARE MC WORKBENCH. (En tout cas c’est la seule façon avec
+laquelle on arrivait à faire en sorte que les changements dans le software soit pris en compte si
+jamais vous trouvez une autre méthode plus court, bien joué).
+
+J’ai fournit les fichier JSON obtenu via MOTOR Profiler. Libre à vous de tester et d’observer les
+mesures. Ce software permet d’identifier les « composants » et leurs valeurs du moteur et faute de
+datasheet sur les moteurs commandées, on a du faire avec les moyens du bord.
+
+
 
