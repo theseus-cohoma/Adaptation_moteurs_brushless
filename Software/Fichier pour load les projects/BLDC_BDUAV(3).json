@@ -1,0 +1,22 @@
+{
+    "BEmfConstant": 5.338385105133057,
+    "compatibility": [
+        "FOC",
+        "sixStep"
+    ],
+    "description": "25/11/2025(3)",
+    "friction": 21.73,
+    "hardwareFamily": "MOTOR",
+    "id": "BLDC_BDUAV",
+    "inertia": 24.02,
+    "label": "BLDC_BDUAV",
+    "ls": 0.06,
+    "magneticStructure": {
+        "type": "SM-PMSM"
+    },
+    "maxRatedSpeed": 2970,
+    "nominalCurrent": 10,
+    "nominalDCVoltage": 23.891204833984375,
+    "polePairs": 6,
+    "rs": 0.10000000149011612
+}
