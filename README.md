@@ -64,7 +64,7 @@ Software (tuto) :
 
 <img width="360" height="356" alt="image" src="https://github.com/user-attachments/assets/a1348207-d66c-4562-838d-951411b2baff" />
 
-On lance d’abord motorControl Workbench > Load project là vous mettez le fichier BON_MOTEUR.stwb6. Et ça vous ouvre directement la page(Image ci-dessous).
+On lance d’abord motorControl Workbench > Load project là vous mettez le fichier BON_MOTEUR.stwb6 (dispo dans le dossier Fichier pour load les projects). Et ça vous ouvre directement la page(Image ci-dessous).
 
 <img width="932" height="488" alt="image" src="https://github.com/user-attachments/assets/219ba486-bc4a-4dba-9ce3-5689575fc156" />
 
@@ -103,9 +103,12 @@ VOUS FAITES DANS LE SOFTWARE MC WORKBENCH. (En tout cas c’est la seule façon 
 laquelle on arrivait à faire en sorte que les changements dans le software soit pris en compte si
 jamais vous trouvez une autre méthode plus court, bien joué).
 
-J’ai fournit les fichier JSON obtenu via MOTOR Profiler. Libre à vous de tester et d’observer les
-mesures. Ce software permet d’identifier les « composants » et leurs valeurs du moteur et faute de
-datasheet sur les moteurs commandées, on a du faire avec les moyens du bord.
+J’ai fournit les fichier JSON obtenu via MOTOR Profiler( dans le dossier Fichier pour load les
+projects, vous remarquerez qu’il y en a deux, celui « Moteur présentation » c’est le fichier que l’on
+a utiliser pour la présentation de S7, et l’autre c’est celui qu’on a utilisé pour les applications
+présentées plus hauts). Libre à vous de tester et d’observer les mesures. Ce software permet
+d’identifier les « composants » et leurs valeurs du moteur et faute de datasheet sur les moteurs
+commandées, on a du faire avec les moyens du bord.
 
 
 
